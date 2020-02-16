@@ -54,6 +54,22 @@ EOD;
 
     echo "</br></br>";
 
+    $num = 68;
+
+    printf("num test: %d</br></br>", $num);
+
+    $aString = "jeh weu woiwoei we w3o 032 fksj";
+    $arr2 = explode(" ", $aString, 5);
+    foreach($arr2 as $z) {
+        echo $z . " </br>";
+    }
+
+    $bString = "Hello my name is Bob";
+    echo "blah blah " . strstr($bString, "name");
+
+    echo "</br></br>";
+
+    echo strpos($bString, "my");
     ?>
 
 </body>
